@@ -1,15 +1,12 @@
 {
-  "name": "gatsby-starter-eventually",
+  "name": "gatsby-gigya-id",
   "version": "1.0.0",
-  "description": "Gatsby.js V2 starter template based on Eventually by HTML5 UP",
+  "description": "Gigya Identity Starter Eventually based on Gastby and Eventually by HTML5 UP",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-eventually.git"
+    "url": "https://github.com/dinavinter/gatsby-gigya-id"
   },
-  "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
-  },
+
   "dependencies": {
     "bootstrap": "^5.0.0",
     "gatsby": "^2.20.2",
@@ -46,5 +43,5 @@
   "bugs": {
     "url": "https://github.com/anubhavsrivastava/gatsby-starter-eventually/issues"
   },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-eventually#readme"
+  "homepage": "https://dinavinter.github.io/gatsby-gigya-id"
 }
