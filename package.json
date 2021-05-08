@@ -4,7 +4,7 @@
   "description": "Gigya Identity Starter Eventually based on Gastby and Eventually by HTML5 UP",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dinavinter/gatsby-gigya-id"
+    "url": "git@github.com:dinavinter/gatsby-gigya-id.git"
   },
 
   "dependencies": {
@@ -41,7 +41,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-eventually/issues"
+    "url": "https://github.com/dinavinter/gatsby-gigya-i/issues"
   },
   "homepage": "https://dinavinter.github.io/gatsby-gigya-id"
 }
