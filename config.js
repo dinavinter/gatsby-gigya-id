@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-gigya-id/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `https://github.com/dinavinter/gatsby-gigya-id`, // This path is subpath of your hosting https://domain/portfolio
   // social
   heading: 'Boom Id',
   subHeading:
