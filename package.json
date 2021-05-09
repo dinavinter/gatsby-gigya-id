@@ -6,7 +6,6 @@
     "type": "git",
     "url": "git@github.com:dinavinter/gatsby-gigya-id.git"
   },
-
   "dependencies": {
     "bootstrap": "^5.0.0",
     "gatsby": "^2.20.2",
@@ -14,6 +13,7 @@
     "gatsby-plugin-offline": "^3.1.0",
     "gatsby-plugin-react-helmet": "^3.2.0",
     "gatsby-plugin-sass": "^2.2.0",
+    "is-docker": "^2.2.1",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
