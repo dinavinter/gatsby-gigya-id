@@ -1,17 +1,15 @@
 # gatsby-starter-eventually
 
-Gatsby.js V2 starter template based on eventually by HTML5 UP
+Gatsby.js V2 starter template based on eventually by HTML5 UP And Gigya Id
+
+Based on https://anubhavsrivastava.github.io/gatsby-starter-eventually/
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
 ![Screenshot](./src/assets/img/eventually.jpg)
 
-Check online preview [here](https://anubhavsrivastava.github.io/gatsby-starter-eventually/)
-
-## Screenshot
-
-![Screenshot](./src/assets/img/demo.png)
-
+Check online preview [here](https://dinavinter.github.io/gatsby-gigya-id/)
+ 
 ## Install
 
 Make sure that you have the Gatsby CLI program installed:
@@ -23,7 +21,7 @@ npm install --global gatsby-cli
 And run from your CLI:
 
 ```sh
-gatsby new <site-name> https://github.com/anubhavsrivastava/gatsby-starter-eventually
+gatsby new <site-name> git@github.com:dinavinter/gatsby-gigya-id.git
 ```
 
 Then you can run it by:

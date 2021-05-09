@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: 'Gigya Identity Starter Eventually', // <title>
-  manifestName: 'Eventually',
+  siteTitle: 'Gigya Identity Starter', // <title>
+  manifestName: 'Gigya',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
