@@ -18,6 +18,7 @@ import {
 import {AuthorizedView, NotAuthorizedView, useGigyaAuth} from "../gigya";
 import {useFido} from "../gigya/useGigyaAuth";
 import {ScreenSets} from "../gigya/screens";
+import Button from "bootstrap/js/src/button";
 
 const LinkButton = props => <button
     {...props}
@@ -39,12 +40,12 @@ export function Bar({openScreen}) {
     const {login, register} = useFido();
     const accountEmail = account && account.profile && account.profile.email;
     return (
-        <Navbar color="light" light expand="md">
+        <Navbar  class="navbar navbar-light bg-light justify-content-between " color={"dark"} fixed="top"  >
             <NavbarBrand href="/"> Id-Booom
             </NavbarBrand>
 
-            <Nav className="mr-auto" navbar>
-                <NavItem>
+            <Nav className="mr-auto"    >
+                <NavItem >
                     <NavLink href="javascript:;"># {accountEmail}</NavLink>
                 </NavItem>
 
