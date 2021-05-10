@@ -4,20 +4,26 @@ import {useContext, useState} from "react";
 
 const ScreenContainerContext = React.createContext();
 
-export function Screen({screenSet, startScreen, props}) {
-    const {container} = useContext(ScreenContainerContext); 
+export function Screen({screenSet, startScreen, ...props}) {
+    const {container} = useContext(ScreenContainerContext);
     const show = useShowScreenset(screenSet, startScreen, container, props)
     show();
     return <></>
 }
 
+export const ScreenSets= {
+    Profile:{screenSet:"Default-ProfileUpdate", startScreen:'gigya-update-profile-screen'},
+    Register:{screenSet:"Default-RegistrationLogin", startScreen:'gigya-register-screen'},
+    Login:{screenSet:"Default-RegistrationLogin", startScreen:'gigya-login-screen'},
+    Lite:{screenSet:"Default-LiteRegistration" }
+}
 
 export const Profile = () => {
     return <Screen screenSet="Default-ProfileUpdate" startScreen='gigya-update-profile-screen'  />;
 }
 
 export const RegistrationLogin = () => {
-     return <Screen screenSet="Default-RegistrationLogin" startScreen='gigya-register-screen' />;
+    return <Screen screenSet="Default-RegistrationLogin" startScreen='gigya-register-screen' />;
 }
 
 export const ScreenContainer = ({children, containerId}) => {

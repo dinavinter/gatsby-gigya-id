@@ -7,8 +7,7 @@ import {
     RegistrationLogin,
     useGigyaAuth
 } from "../gigya";
-
-
+ 
 
 export function Main() {
     let styles = {
@@ -17,20 +16,14 @@ export function Main() {
 
     }
     return (
-        <div   style={styles}> 
-            <ScreenContainer>
+        <div style={styles}>
+            <AuthorizedView>
+                <Profile />
+            </AuthorizedView>
 
-                <AuthorizedView>
-                    <Profile/>
-                </AuthorizedView>
-
-                <NotAuthorizedView> 
-                    <RegistrationLogin/>
-                </NotAuthorizedView>
-
-            </ScreenContainer>
-
-
+            <NotAuthorizedView>
+                <RegistrationLogin />
+            </NotAuthorizedView>
         </div>
     )
 }

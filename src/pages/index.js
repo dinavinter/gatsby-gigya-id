@@ -6,8 +6,9 @@ import Header from '../components/Header';
 import EmailForm from '../components/EmailForm';
 import SlideShow from '../components/SlideShow';
 import {Main} from "../components/Main";
-import {GigyaProvider} from "../gigya";
+import {GigyaProvider, ScreenContainer} from "../gigya";
 import {Bar} from "../components/Navbar";
+import {ScreenBar} from "../components/ScreenBar";
 
 var settings = {
     images: [
@@ -21,7 +22,7 @@ var settings = {
 
 const IndexPage = () => (
     <GigyaProvider apiKey={"3_AO0Wfh-Q3xoWbnNsdzLG-aJP2Z3xY9OZNd-l1lfokBcQI9UBV3vCiTkB9Crh9W_v"}
-                   domain={"gigya.com"}> 
+                   domain={"gigya.com"}>
         <head>
             <link
                 rel="stylesheet"
@@ -31,9 +32,11 @@ const IndexPage = () => (
             />
         </head>
         <Layout>
-            <Bar />
-            <Header/>
-            <Main/>
+            <ScreenContainer>  
+                <Header />
+                <ScreenBar />
+                <Main />
+            </ScreenContainer>
             <Footer/>
             <SlideShow settings={settings}/>
         </Layout>
